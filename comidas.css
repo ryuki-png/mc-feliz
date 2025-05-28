@@ -1,0 +1,160 @@
+
+body{
+    background-color: rgba(204, 204, 204, 0.747);
+}
+
+#sobremesas{
+    font-size:30px ;
+    font-weight: lighter;
+    font-family: fantasy;
+    margin:40px;
+}
+div.baunilha{
+    position: fixed;
+    left:  150px;
+    width: 150px;
+    padding: 10px;
+    
+    
+    box-shadow: 0px 0px 8px  rgb(46, 46, 46);
+    border: 0px solid rgb(58, 58, 58);
+    border-radius: 14px;
+    background-color: rgba(70, 69, 69, 0.336);
+   
+    text-align: center;
+    justify-items: center;
+}
+.baunilha p{
+    border: 1px solid rgb(54, 54, 54);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+div.baunilha:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    box-shadow: 1px 1px 8px rgb(68, 68, 68);
+    
+}
+.baunilha p:hover{
+    
+    transition-duration: 0.5s;
+    border: 1px solid transparent;
+    color: white;
+}
+div.baunilha img{
+    display: block;
+    margin: 0px;
+    width: 250px;
+    
+}
+
+div.chocolate{
+    position: absolute;
+    left: 370px;
+
+    width: 150px;
+    padding: 10px;
+    padding-bottom: 13px;
+    
+    
+    box-shadow: 0px 0px 8px  rgb(46, 46, 46);
+    border: 0px solid rgb(58, 58, 58);
+    border-radius: 14px;
+    background-color: rgba(70, 69, 69, 0.336);
+   
+    text-align: center;
+    justify-items: center;
+}
+
+div.chocolate p{
+ 
+    border: 1px solid rgb(54, 54, 54);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+
+
+}
+div.chocolate:hover{
+
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    box-shadow: 1px 1px 8px rgb(68, 68, 68);
+
+}
+div.chocolate p:hover{
+
+    
+    transition-duration: 0.5s;
+    border: 1px solid transparent;
+    color: rgb(92, 25, 25);
+
+}
+div.chocolate img{
+    display: block;
+    margin: 0px;
+    width: 250px;
+
+}
+
+div.mista{
+
+    position: absolute;
+    left: 590px;
+
+    width: 150px;
+    padding: 10px;
+    
+    padding-bottom: 13px;
+    
+    
+    box-shadow: 0px 0px 8px  rgb(46, 46, 46);
+    border: 0px solid rgb(58, 58, 58);
+    border-radius: 14px;
+    background-color: rgba(70, 69, 69, 0.336);
+   
+    text-align: center;
+    justify-items: center;
+
+}
+div.mista p{
+    border: 1px solid rgb(54, 54, 54);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+   
+}
+
+div.mista:hover{
+
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    box-shadow: 1px 1px 8px rgb(68, 68, 68);
+}
+
+div.mista p:hover{
+   
+   
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, rgb(90, 21, 0), rgb(160, 131, 88), rgb(216, 208, 194), rgb(255, 255, 255));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    background-color: #ff9900;
+    display: inline-block;
+    transition-duration: 0.5s; 
+}
+
+ 
+
+div.mista img{
+
+    display: block;
+    margin: 0px;
+    width: 250px;
+}
